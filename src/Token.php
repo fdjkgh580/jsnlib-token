@@ -20,6 +20,16 @@ class Token
         return json_encode($token->toArray());
     }
 
+    /**
+     * 當前時間，相對於指定時間，是否過期了？
+     * @param   $datetime  date()的格式如 '2014-12-25 00:00:00'
+     * @return  bool
+     */
+    public function is_expiry($datetime): bool
+    {
+        return (time() >= strtotime($datetime)) ? true : false;
+    }
+
 
     /**
      * 產生新令牌

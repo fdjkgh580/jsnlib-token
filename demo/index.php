@@ -18,12 +18,21 @@ $token = $tk->create('ABC', $expiry);
  * value => '42d398f2ecef48da5b4dab7e63c3323a8894048357ce8ba319dbec7ea847cb99'
  * expiry => '2017-08-15'
  */
-echo $token;
+// echo $token;
 
 /**
  * 若要 JSON 格式如
  * array ( 'value' => '1a94b598b4067998b601221a47068cc31ac8fd6c3748abffec3e9046cd164cc5', 'expiry' => '2017-08-09 10:16:41', )
  */
-echo ($tk->json($token));
+// echo ($tk->json($token));
 
-die;
+
+// 4. 檢查是否已經過期
+if ( ! $is_expiry = $tk->is_expiry($token->expiry))
+{
+    echo "未過期";
+}
+else
+{
+    echo "已過期";
+}
