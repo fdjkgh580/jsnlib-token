@@ -1,0 +1,73 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c1a0f99fa55f14e7499a8523a48b611e",
+    "packages": [
+        {
+            "name": "jsnlib/jsnlib",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fdjkgh580/jsnlib.git",
+                "reference": "839a7acad4a9ff7627fa66623549815e84eb11bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fdjkgh580/jsnlib/zipball/839a7acad4a9ff7627fa66623549815e84eb11bf",
+                "reference": "839a7acad4a9ff7627fa66623549815e84eb11bf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Ao",
+                    "Cart",
+                    "Copy",
+                    "Del",
+                    "Db",
+                    "Edit",
+                    "Export",
+                    "Filelink",
+                    "Group",
+                    "Hash",
+                    "Pdo",
+                    "Popcount",
+                    "Rand",
+                    "Seq",
+                    "Taiwan",
+                    "Upload",
+                    "UploadImageBase64"
+                ],
+                "files": [
+                    "Function.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "類別庫",
+            "homepage": "https://github.com/fdjkgh580/jsnlib",
+            "keywords": [
+                "library"
+            ],
+            "time": "2017-08-02T07:10:45+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": []
+}

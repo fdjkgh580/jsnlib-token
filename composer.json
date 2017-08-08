@@ -1,0 +1,15 @@
+{
+    "name": "jsnlib/token",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/fdjkgh580/token",
+    "require": {
+        "php": ">=7.0",
+        "jsnlib/jsnlib": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jsnlib\\": "src"
+        }
+    }
+}
